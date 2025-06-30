@@ -46,15 +46,15 @@ function App() {
         <div className="absolute inset-0 bg-gradient-to-br from-emerald-50/90 via-green-50/85 to-teal-50/90" />
         
         {/* Hero Section */}
-        <div className="relative z-20 pt-20 pb-16">
+        <div className="relative z-20 pt-10 pb-16">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
-              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full mb-8 shadow-2xl">
-                <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z"/>
-                  <path d="M19 15L20.09 18.26L24 19L20.09 19.74L19 23L17.91 19.74L14 19L17.91 18.26L19 15Z"/>
-                  <path d="M5 15L6.09 18.26L10 19L6.09 19.74L5 23L3.91 19.74L0 19L3.91 18.26L5 15Z"/>
-                </svg>
+              <div className="inline-flex items-center justify-center w-20 h-20 rounded-xl mb-8 shadow-2xl overflow-hidden">
+                <img 
+                  src="/favicon.png" 
+                  alt="Farm Assist Logo" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h1 className="text-6xl font-bold bg-gradient-to-r from-green-700 via-emerald-600 to-teal-600 bg-clip-text text-transparent mb-6">
                 Farm Assist
